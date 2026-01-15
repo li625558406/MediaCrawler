@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(if:*)",
+      "Bash(then echo \"Directory exists\")",
+      "Bash(else mkdir \"F:/code/MediaCrawler/server\")",
+      "Bash(fi:*)"
+    ]
+  }
+}

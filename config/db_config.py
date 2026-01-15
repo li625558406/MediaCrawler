@@ -58,7 +58,7 @@ MONGODB_HOST = os.getenv("MONGODB_HOST", "localhost")
 MONGODB_PORT = os.getenv("MONGODB_PORT", 27017)
 MONGODB_USER = os.getenv("MONGODB_USER", "")
 MONGODB_PWD = os.getenv("MONGODB_PWD", "")
-MONGODB_DB_NAME = os.getenv("MONGODB_DB_NAME", "media_crawler")
+MONGODB_DB_NAME = os.getenv("MONGO_DB", "lee_ai")
 
 mongodb_config = {
     "host": MONGODB_HOST,
