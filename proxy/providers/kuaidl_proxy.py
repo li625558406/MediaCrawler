@@ -157,10 +157,10 @@ def new_kuai_daili_proxy() -> KuaiDaiLiProxy:
 
     """
     # Support both uppercase and lowercase environment variable formats, prioritize uppercase
-    kdl_secret_id = os.getenv("KDL_SECERT_ID") or os.getenv("kdl_secret_id", "your_kuaidaili_secret_id")
-    kdl_signature = os.getenv("KDL_SIGNATURE") or os.getenv("kdl_signature", "your_kuaidaili_signature")
-    kdl_user_name = os.getenv("KDL_USER_NAME") or os.getenv("kdl_user_name", "your_kuaidaili_username")
-    kdl_user_pwd = os.getenv("KDL_USER_PWD") or os.getenv("kdl_user_pwd", "your_kuaidaili_password")
+    kdl_secret_id = os.getenv("KDL_SECERT_ID") or os.getenv("kdl_secret_id", "ocfk1zqt06q3atnw84s9")
+    kdl_signature = os.getenv("KDL_SIGNATURE") or os.getenv("kdl_signature", "5nhuervk15psv7xlz3zw8e1nfcvgk59v")
+    kdl_user_name = os.getenv("KDL_USER_NAME") or os.getenv("kdl_user_name", "d3160691785")
+    kdl_user_pwd = os.getenv("KDL_USER_PWD") or os.getenv("kdl_user_pwd", "5x0b6tlj")
 
     return KuaiDaiLiProxy(
         kdl_secret_id=kdl_secret_id,
